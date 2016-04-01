@@ -62,7 +62,7 @@ class WxBot extends Wechat {
     }).then(res => {
       const data = res.data;
       if (data.code == 100000) {
-        return data.text;// + '[微信机器人]';
+        return data.text;// + '[微信机器人]'; 
       }
       throw new Error('tuning返回值code错误', data);
     }).catch(err => {
