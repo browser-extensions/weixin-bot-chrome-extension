@@ -49,7 +49,7 @@ class WxBot extends Wechat {
     });
     this.members = members;
   }
-
+ 
   _tuning(word) {
     let params = {
       'key': '2ba083ae9f0016664dfb7ed80ba4ffa0',
